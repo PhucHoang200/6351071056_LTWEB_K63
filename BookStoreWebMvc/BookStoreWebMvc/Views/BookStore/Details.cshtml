@@ -1,0 +1,19 @@
+﻿
+
+@model BookStoreWebMvc.Models.SACH
+
+@{
+    ViewBag.Title = "Chi tiết sách";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+<div class="product-details">
+    <h2>@Model.Tensach</h2>
+    <img src="~/Hinhsanpham/@Model.Anhbia" alt="@Model.Tensach" width="300" />
+    <p><strong>Nhà xuất bản:</strong> @Model.NHAXUATBAN.TenNXB</p>
+    <p><strong>Giá:</strong> @Model.Giaban</p>
+    <p><strong>Mô tả:</strong> @Model.Mota</p>
+
+</div>
+
+

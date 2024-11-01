@@ -1,0 +1,117 @@
+﻿@model BookStoreWebMvc.Models.BookStoreVM
+
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+
+
+<div class="row">
+
+    <!-- Sidebar cho lọc danh mục và tác giả -->
+    <div class="col-md-3">
+        <!-- Danh mục chủ đề sách -->
+        <div class="filter_section">
+            <h3>Danh Mục Chủ Đề</h3>
+            <ul>
+                @foreach (var chude in Model.chudes)  // Giả sử Model.Categories là danh sách các danh mục
+                {
+                    <li>
+                        <a href="@Url.Action("FilterByCategory", "BookStore", new { id = chude.MaCD })">
+                            @chude.TenChuDe
+                        </a>
+                    </li>
+                }
+            </ul>
+        </div>
+
+        <!-- Danh mục nhà xuất bản -->
+        <div class="filter_section">
+            <h3>Nhà xuất bản</h3>
+            <ul>
+                @foreach (var nhaxuatban in Model.nhaxuatbans)  // Giả sử Model.Authors là danh sách các tác giả
+                {
+                    <li>
+                        <a href="@Url.Action("FilterByPublisher", "BookStore", new { id = nhaxuatban.MaNXB })">
+                            @nhaxuatban.TenNXB
+                        </a>
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+
+    <!-- Phần hiển thị sách -->
+    <div class="col-md-9">
+        <section class="catagory_section layout_padding">
+            <div class="catagory_container">
+                <div class="container">
+                    
+
+                    <ul class="book_list">
+                        @foreach (var sach in Model.saches) // Giả sử Model.Books là danh sách các sách
+                        {
+                            <li>
+                                <a href="@Url.Action("Details", "BookStore", new { id = sach.Masach })">
+                                    <img alt="" src="~/Hinhsanpham/@sach.Anhbia" width="200" />
+                                    <span>@sach.Tensach</span>
+                                </a>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+
+<style>
+    .filter_section {
+        margin-bottom: 20px;
+    }
+
+        .filter_section h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .filter_section ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+            .filter_section ul li {
+                margin-bottom: 5px;
+            }
+
+                .filter_section ul li a {
+                    text-decoration: none;
+                    color: #333;
+                }
+
+                    .filter_section ul li a:hover {
+                        color: #007bff;
+                    }
+
+    .book_list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        list-style: none;
+        padding-left: 0;
+    }
+
+        .book_list li {
+            flex: 0 0 calc(33.333% - 20px);
+            text-align: center;
+        }
+
+            .book_list li img {
+                width: 100%;
+                height: auto;
+            }
+</style>
+
+
