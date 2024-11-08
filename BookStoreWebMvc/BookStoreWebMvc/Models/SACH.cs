@@ -20,7 +20,7 @@ namespace BookStoreWebMvc.Models
             this.VIETSACHes = new HashSet<VIETSACH>();
         }
     
-        public int Masach { get; set; }
+        public int? Masach { get; set; }
         public string Tensach { get; set; }
         public Nullable<decimal> Giaban { get; set; }
         public string Mota { get; set; }

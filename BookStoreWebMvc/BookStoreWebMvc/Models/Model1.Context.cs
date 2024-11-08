@@ -12,19 +12,19 @@ namespace BookStoreWebMvc.Models
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
-    
+
     public partial class QLBansachEntities : DbContext
     {
         public QLBansachEntities()
             : base("name=QLBansachEntities")
         {
         }
-    
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             throw new UnintentionalCodeFirstException();
         }
-    
+
         public DbSet<CHITIETDONTHANG> CHITIETDONTHANGs { get; set; }
         public DbSet<CHUDE> CHUDEs { get; set; }
         public DbSet<DONDATHANG> DONDATHANGs { get; set; }
@@ -33,5 +33,9 @@ namespace BookStoreWebMvc.Models
         public DbSet<SACH> SACHes { get; set; }
         public DbSet<TACGIA> TACGIAs { get; set; }
         public DbSet<VIETSACH> VIETSACHes { get; set; }
+        public DbSet<Giohang> GIOHANGs
+        {
+            get; set;
+        }
     }
 }

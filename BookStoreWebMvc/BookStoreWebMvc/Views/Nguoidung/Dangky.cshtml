@@ -1,0 +1,76 @@
+﻿
+@{
+    ViewBag.Title = "Dangky";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+<table align="center">
+    <h2 style="text-align:center">ĐĂNG KÝ THÀNH VIÊN</h2>
+    @using (Html.BeginForm())
+    {
+        @Html.ValidationSummary(true)
+        <tr style="height:40px">
+            <td>Họ tên khách hàng:</td>
+            <td>
+                @Html.TextBox("HotenKH")
+                @ViewData["Loi 1"]
+            </td>
+        </tr>
+        <tr style="height:40px" autocomplete="off">
+            <td >Tên đăng nhập:</td>
+            <td>
+                @Html.TextBox("TenDN")
+                @ViewData["Loi 2"]
+            </td>      
+        </tr>
+        <tr style="height:40px" autocomplete="off">
+            <td>Mật khẩu:</td>
+            <td>
+                @Html.Password("Matkhau")
+                @ViewData["Loi 3"] 
+            </td>
+        </tr>
+        <tr style="height:40px" autocomplete="off">
+            <td>Nhập lại mật khẩu:</td>
+            <td>
+                @Html.Password("Nhaplaimatkhau")
+                @ViewData["Loi 4"]
+            </td>
+        </tr>
+        <tr style="height:40px">
+            <td>Email:</td>
+            <td>
+                @Html.TextBox("Email")
+                @ViewData["Loi 5"]
+            </td>
+        </tr>
+        <tr style="height:40px">
+            <td>Địa chỉ:</td>
+            <td>
+                @Html.TextBox("Diachi")
+                @ViewData["Loi 6"]
+            </td>
+        </tr>
+        <tr style="height:40px">
+            <td>Điện thoại:</td>
+            <td>
+                @Html.TextBox("Dienthoai")
+                @ViewData["Loi 7"]
+            </td>
+        </tr>
+        <tr style="height:40px">
+            <td>Ngày sinh:</td>
+            <td>
+                <input type="date" name="Ngaysinh" />
+            </td>
+        </tr>
+
+        <tr style="height:40px">
+            <td></td>
+            <td>
+                <input type="submit" name="Đăng ký"/>           
+            </td>
+        </tr>
+    }
+</table>
+

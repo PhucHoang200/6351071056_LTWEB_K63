@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿
+@using BookStoreWebMvc.Models;
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -19,13 +21,13 @@
     <link rel="stylesheet" type="text/css" href="~/Content/css/bootstrap.css" />
     <!-- font awesome style -->
     <link href="~/Content/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 
     <!-- Custom styles for this template -->
     <link href="~/Content/css/style.css" rel="stylesheet" />
     <!-- responsive style -->
     <link href="~/Content/css/responsive.css" rel="stylesheet" />
-   
-    
 </head>
 
 <body>
@@ -56,20 +58,35 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="@Url.Action("Categories", "BookStore")">Categories</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="@Url.Action("Blog", "BookStore")">Blog</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="@Url.Action("Contact", "BookStore")">Contact Us</a>
-                            </li>
+                            @if (Session["Taikhoan"] != null)
+                            {
+                                var khachHang = (KHACHHANG)Session["Taikhoan"];
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Chào, @khachHang.HoTen
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="@Url.Action("ThongtinTaikhoan", "Nguoidung")">Xem thông tin tài khoản</a>
+                                        <a class="dropdown-item" href="@Url.Action("Dangxuat", "Nguoidung")">Đăng xuất</a>
+                                    </div>
+                                </li>
+                            }
+                            else
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link" href="@Url.Action("Dangnhap", "Nguoidung")">Đăng nhập</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="@Url.Action("Dangky", "Nguoidung")">Đăng ký</a>
+                                </li>
+                            }
                         </ul>
 
-                        <from class="search_form">
-                            <input type="text" class="form-control" placeholder="Search here...">
-                            <button class="" type="submit">
-                                <i class="fa fa-search" aria-hidden="true"></i>
-                            </button>
-                        </from>
+                        <form>
+                            <a href="@Url.Action("Giohang", "Giohang")" style="color:white; font-weight:bold; text-decoration:none;">
+                                <i class="fas fa-cart-plus"></i>Giỏ hàng(@ViewBag.Tongsoluong)
+                            </a>
+                        </form>
                     </div>
                 </nav>
             </div>
