@@ -1,5 +1,6 @@
 ﻿@model BookStoreWebMvc.Models.BookStoreVM
-
+@using PagedList
+@using PagedList.Mvc
 
 @{
     ViewBag.Title = "Index";
@@ -48,7 +49,7 @@
         <section class="catagory_section layout_padding">
             <div class="catagory_container">
                 <div class="container">
-                    
+
 
                     <ul class="book_list">
                         @foreach (var sach in Model.saches) // Giả sử Model.Books là danh sách các sách
@@ -63,11 +64,44 @@
                     </ul>
                 </div>
             </div>
+            
+            <!-- Phân trang -->
+            <div class="paging">
+                @Html.PagedListPager((IPagedList)Model.saches, page => Url.Action("Index", new { page=page }))
+            </div>
         </section>
     </div>
 </div>
 
 <style>
+    .paging {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+        .paging .PagedList-pager {
+            display: flex;
+            gap: 8px;
+        }
+
+        .paging .PagedList-page {
+            display: inline-block;
+            padding: 8px 12px;
+            background-color: #f8f9fa;
+            color: #007bff;
+            border-radius: 5px;
+            border: 1px solid #007bff; /* Thêm viền cho các số trang */
+            text-decoration: none;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        .paging .active {
+            background-color: #007bff;
+            border: 1px solid #0056b3; /* Thêm viền cho trang đang được chọn */
+        }
+
     .filter_section {
         margin-bottom: 20px;
     }

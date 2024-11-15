@@ -1,0 +1,87 @@
+﻿@model IPagedList<BookStoreWebMvc.Models.SACH>
+@using PagedList
+@using PagedList.Mvc
+
+@using System.Text.RegularExpressions
+
+@helper TruncatePlainText(string input, int length)
+{
+    // Xóa các thẻ HTML
+    string plainText = Regex.Replace(input, "<.*?>", string.Empty);
+
+    // Hiển thị nội dung đã loại bỏ HTML
+    if (plainText.Length < length)
+    {
+        @plainText
+    }
+    else
+    {
+        @plainText.Substring(0, length) @:<textarea>...</textarea>
+    }
+}
+
+
+@{
+    ViewBag.Title = "Sach";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2 style="text-align:center">QUẢN LÝ THÔNG TIN SÁCH</h2>
+
+<p>
+    @Html.ActionLink("THÊM MỚI", "Themmoisach")
+</p>
+<table class="table" border="1">
+    <tr>
+        <th style="width:200px"> Tên sách </th>
+        <th style="width:100px"> Giá bán </th>
+        <th style="width:300px"> Mô tả </th>
+        <th style="width:120px"> Ảnh bìa </th>
+        <th style="width:150px"> Ngày cập nhật </th>
+        <th style="width:120px"> SL.Tồn </th>
+        <th style="width:120px"> Tên chủ đề </th>
+        <th style="width:100px"> Tên NXB </th>
+        <th style="width:200px"> </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tensach)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Giaban)
+            </td>
+            <td>
+                @TruncatePlainText(item.Mota, 100)
+            </td>
+            <td>
+                <img src="@Url.Content("~/Hinhsanpham/" + item.Anhbia)" width="150" />
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ngaycapnhat)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Soluongton)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CHUDE.TenChuDe)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NHAXUATBAN.TenNXB)
+            </td>
+            <td>
+                @Html.ActionLink("Sửa", "Suasach", new { id=item.Masach }) |
+                @Html.ActionLink("Chi tiết", "Chitietsach", new { id = item.Masach }) |
+                @Html.ActionLink("Xóa", "Xoasach", new { id = item.Masach })
+            </td>
+        </tr>
+    }
+
+</table>
+
+<!-- Phân trang -->
+<div class="paging">
+    @Html.PagedListPager(Model, page => Url.Action("Sach", new { page }))
+</div>

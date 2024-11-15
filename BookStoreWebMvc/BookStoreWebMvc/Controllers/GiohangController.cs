@@ -135,12 +135,12 @@ namespace BookStoreWebMvc.Controllers
         [HttpGet]
         public ActionResult DatHang()
         {
-            if (Session["Taikhoan"]==null || Session["Taikhoan"].ToString()=="")
+            if (Session["Taikhoan"] == null || Session["Taikhoan"].ToString() == "")
             {
                 return RedirectToAction("Dangnhap", "Nguoidung");
             }
 
-            if (Session["Giohang"]==null)
+            if (Session["Giohang"] == null)
             {
                 return RedirectToAction("Index", "BookStore");
             }
@@ -151,48 +151,74 @@ namespace BookStoreWebMvc.Controllers
 
             return View(lstGiohang);
         }
+
         [HttpPost]
         public ActionResult DatHang(FormCollection collection)
         {
-            DONDATHANG ddh = new DONDATHANG();
-            KHACHHANG kh = (KHACHHANG)Session["Taikhoan"];
+            // Kiểm tra người dùng đã đăng nhập chưa
+            if (Session["Taikhoan"] == null)
+            {
+                return RedirectToAction("Dangnhap", "Nguoidung");
+            }
+
+            // Kiểm tra giỏ hàng có sản phẩm chưa
             List<Giohang> gh = Laygiohang();
-            ddh.MaKH = kh.MaKH;
-            ddh.Ngaydat=DateTime.Now;
-             // Lấy giá trị từ collection và thử phân tích nó thành DateTime
-    var ngaygiaoStr = collection["Ngaygiao"];
-    DateTime ngaygiao;
-    // Đảm bảo rằng định dạng ngày là đúng. Thử chuyển đổi với định dạng mm/dd/yyyy.
-    bool isValidDate = DateTime.TryParseExact(ngaygiaoStr, "MM/dd/yyyy", 
-                                              System.Globalization.CultureInfo.InvariantCulture, 
-                                              System.Globalization.DateTimeStyles.None, 
-                                              out ngaygiao);
-    if (isValidDate)
-    {
-        ddh.Ngaygiao = ngaygiao;
-    }
-    else
-    {
-        // Nếu không thể phân tích, bạn có thể trả về thông báo lỗi hoặc gán giá trị mặc định
-        ModelState.AddModelError("Ngaygiao", "Ngày giao không hợp lệ.");
-        return View();  // Trả về view và hiển thị thông báo lỗi
-    }
-            ddh.Tinhtranggiaohang = false;
-            ddh.Dathanhtoan = false;
+            if (gh == null || gh.Count == 0)
+            {
+                return RedirectToAction("Index", "BookStore");
+            }
+
+            // Lấy thông tin khách hàng từ session
+            KHACHHANG kh = (KHACHHANG)Session["Taikhoan"];
+            DONDATHANG ddh = new DONDATHANG
+            {
+                MaKH = kh.MaKH,
+                Ngaydat = DateTime.Now,
+                Tinhtranggiaohang = false,
+                Dathanhtoan = false
+            };
+
+            // Lấy và kiểm tra ngày giao hàng từ form
+            var ngaygiaoStr = collection["Ngaygiao"];
+            DateTime ngaygiao;
+            bool isValidDate = DateTime.TryParseExact(ngaygiaoStr, "yyyy-MM-dd", // Định dạng yyyy-MM-dd cho input type="date"
+                                                      System.Globalization.CultureInfo.InvariantCulture,
+                                                      System.Globalization.DateTimeStyles.None,
+                                                      out ngaygiao);
+            if (isValidDate)
+            {
+                ddh.Ngaygiao = ngaygiao;
+            }
+            else
+            {
+                ModelState.AddModelError("Ngaygiao", "Ngày giao không hợp lệ.");
+                ViewBag.Tongsoluong = TongSoLuong();
+                ViewBag.Tongtien = TongTien();
+                return View("DatHang", gh); // Trả về trang đặt hàng nếu có lỗi
+            }
+
+            // Thêm đơn đặt hàng vào cơ sở dữ liệu
             qLBansachEntities.DONDATHANGs.Add(ddh);
             qLBansachEntities.SaveChanges();
 
-            foreach(var item in gh)
+            // Thêm chi tiết đơn đặt hàng
+            foreach (var item in gh)
             {
-                CHITIETDONTHANG ctdh = new CHITIETDONTHANG();
-                ctdh.MaDonHang = ddh.MaDonHang;
-                ctdh.Masach = item.iMasach;
-                ctdh.Soluong = item.iSoluong;
-                ctdh.Dongia = (decimal)item.dDongia;
+                CHITIETDONTHANG ctdh = new CHITIETDONTHANG
+                {
+                    MaDonHang = ddh.MaDonHang,
+                    Masach = item.iMasach,
+                    Soluong = item.iSoluong,
+                    Dongia = (decimal)item.dDongia
+                };
                 qLBansachEntities.CHITIETDONTHANGs.Add(ctdh);
             }
             qLBansachEntities.SaveChanges();
+
+            // Xóa giỏ hàng sau khi đặt hàng thành công
             Session["Giohang"] = null;
+
+            // Chuyển đến trang xác nhận đơn hàng
             return RedirectToAction("Xacnhandonhang", "Giohang");
         }
 
@@ -200,5 +226,6 @@ namespace BookStoreWebMvc.Controllers
         {
             return View();
         }
+
     }
 }

@@ -219,5 +219,14 @@
       <End Role="TACGIA" EntitySet="TACGIAs" />
       <End Role="VIETSACH" EntitySet="VIETSACHes" />
     </AssociationSet>
+    <EntitySet Name="Admins" EntityType="QLBansachModel.Admin" />
   </EntityContainer>
+  <EntityType Name="Admin">
+    <Key>
+      <PropertyRef Name="UserAdmin" />
+    </Key>
+    <Property Name="UserAdmin" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="PassAdmin" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Hoten" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
 </Schema>

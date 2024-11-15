@@ -1,0 +1,24 @@
+﻿@model BookStoreWebMvc.Models.KHACHHANG
+
+@{
+    ViewBag.Title = "ThogntinTaikhoan";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Thông tin tài khoản</title>
+</head>
+<body>
+    <h2>Thông tin tài khoản</h2>
+    <p><strong>Họ tên:</strong> @Model.HoTen</p>
+    <p><strong>Email:</strong> @Model.Email</p>
+    <p><strong>Số điện thoại:</strong> @Model.DiachiKH</p>
+    <p><strong>Địa chỉ:</strong> @Model.DienthoaiKH</p>
+    <!-- Thêm các thông tin khác nếu cần -->
+
+    <a href="@Url.Action("Index", "BookStore")">Quay lại trang chủ</a>
+</body>
+</html>
+

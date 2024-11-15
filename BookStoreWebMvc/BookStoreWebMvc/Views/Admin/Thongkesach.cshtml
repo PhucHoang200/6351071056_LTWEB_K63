@@ -1,0 +1,64 @@
+﻿@using Newtonsoft.Json
+
+@{
+    ViewBag.Title = "Thongkesach";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Thongkesach</h2>
+
+<!-- Thay canvas bằng div để vẽ biểu đồ -->
+<div id="chartContainer" style="height: 400px; width: 100%;"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    // Đảm bảo mã chạy sau khi trang đã được tải hoàn toàn
+    window.onload = function () {
+        // Dữ liệu động từ Controller, sử dụng ViewBag.ChartData
+        var chartData = @Html.Raw(JsonConvert.SerializeObject(ViewBag.ChartData ?? new List<object>()));
+
+        // Chuyển đổi dữ liệu thành định dạng phù hợp cho biểu đồ
+        var labels = chartData.map(function(item) {
+            return item.TenChuDe; // Tên các chủ đề
+        });
+
+        var data = chartData.map(function(item) {
+            return item.SoLuong > 10 ? 10 : item.SoLuong; // Giới hạn số lượng sách tối đa là 10
+        });
+
+        var backgroundColors = chartData.map(function(_, index) {
+            // Tạo màu sắc cho mỗi cột biểu đồ
+            return index % 2 === 0 ? '#FF5733' : '#33FF57';
+        });
+
+        // Tạo phần tử canvas động để vẽ biểu đồ (sử dụng chartContainer div)
+        var ctx = document.createElement('canvas');
+        document.getElementById('chartContainer').appendChild(ctx); // Thêm canvas vào div container
+
+        // Vẽ biểu đồ vào phần tử canvas mới tạo
+        var chart = new Chart(ctx, {
+            type: 'bar', // Loại biểu đồ (cột)
+            data: {
+                labels: labels, // Tên các chủ đề
+                datasets: [{
+                    label: 'Số lượng sách',
+                    data: data, // Số lượng sách theo từng chủ đề (giới hạn tối đa 10)
+                    backgroundColor: backgroundColors, // Màu sắc của các cột
+                    borderColor: backgroundColors, // Màu viền của các cột
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        max: 10, // Giới hạn số lượng sách tối đa là 10
+                    }
+                }
+            }
+        });
+    };
+</script>

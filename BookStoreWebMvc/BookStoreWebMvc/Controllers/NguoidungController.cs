@@ -1,9 +1,6 @@
 ﻿using BookStoreWebMvc.Models;
-using Microsoft.Ajax.Utilities;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 
 namespace BookStoreWebMvc.Controllers
@@ -100,6 +97,13 @@ namespace BookStoreWebMvc.Controllers
             // Xóa session để đăng xuất
             Session.Remove("Taikhoan");
             return RedirectToAction("Index", "BookStore");
+        }
+
+        public ActionResult ThongtinTaikhoan()
+        {
+            if (Session["Taikhoan"] == null) { return RedirectToAction("Dangnhap", "Nguoidung"); }
+            var kh = (KHACHHANG)Session["Taikhoan"];
+            return View(kh);
         }
     }
 }

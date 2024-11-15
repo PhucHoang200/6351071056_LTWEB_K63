@@ -1,6 +1,23 @@
 ﻿
 
 @model BookStoreWebMvc.Models.SACH
+@using System.Text.RegularExpressions
+
+@helper TruncatePlainText(string input, int length)
+{
+    // Xóa các thẻ HTML
+    string plainText = Regex.Replace(input, "<.*?>", string.Empty);
+
+    // Hiển thị nội dung đã loại bỏ HTML
+    if (plainText.Length < length)
+    {
+        @plainText
+    }
+    else
+    {
+        @plainText.Substring(0, length) @:<textarea>...</textarea>
+    }
+}
 
 @{
     ViewBag.Title = "Chi tiết sách";
@@ -12,7 +29,7 @@
     <img src="~/Hinhsanpham/@Model.Anhbia" alt="@Model.Tensach" width="300" />
     <p><strong>Nhà xuất bản:</strong> @Model.NHAXUATBAN.TenNXB</p>
     <p><strong>Giá:</strong> @Model.Giaban<strong> VNĐ</strong></p>
-    <p><strong>Mô tả:</strong> @Model.Mota</p>
+    <p><strong>Mô tả:</strong>@TruncatePlainText(Model.Mota, 100) </p>
     <p>
         @if (Model.Masach != null)
         {

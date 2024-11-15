@@ -1,0 +1,100 @@
+﻿@model BookStoreWebMvc.Models.SACH
+@using System.Text.RegularExpressions
+
+@helper TruncatePlainText(string input, int length)
+{
+    // Xóa các thẻ HTML
+    string plainText = Regex.Replace(input, "<.*?>", string.Empty);
+
+    // Hiển thị nội dung đã loại bỏ HTML
+    if (plainText.Length < length)
+    {
+        @plainText
+    }
+    else
+    {
+        @plainText.Substring(0, length) @:<textarea>...</textarea>
+    }
+}
+
+@{
+    ViewBag.Title = "Chitietsach";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2 style="text-align:center">THÔNG TIN CHI TIẾT SÁCH</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+
+        <dt>
+            Tên sách:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tensach)
+        </dd>
+
+        <dt>
+            Giá bán:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Giaban) VNĐ
+        </dd>
+
+        <dt>
+            Mô tả:
+        </dt>
+
+        <dd style="width:600px; text-align:justify">
+            @TruncatePlainText(Model.Mota, 100)
+        </dd>
+
+        <dt>
+            Ảnh bìa:
+        </dt>
+
+        <dd>
+            <img src="@Url.Content("~/Hinhsanpham/" + Model.Anhbia)" width="140" />
+        </dd>
+
+        <dt>
+            Ngày cập nhật:
+        </dt>
+
+        <dd>
+            @String.Format("{0:dd/MM/yyyy}", Model.Ngaycapnhat)
+        </dd>
+
+        <dt>
+            Số lượng tồn:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Soluongton)
+        </dd>
+
+        <dt>
+            Tên chủ đề:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CHUDE.TenChuDe)
+        </dd>
+
+        <dt>
+            Tên nhà xuất bản:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NHAXUATBAN.TenNXB)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Điều chỉnh", "Suasach", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Trở về", "Sach")
+</p>

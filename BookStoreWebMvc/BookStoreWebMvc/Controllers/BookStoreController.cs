@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using BookStoreWebMvc.Models;
+using PagedList;
+using PagedList.Mvc;
 
 namespace BookStoreWebMvc.Controllers
 {
@@ -26,9 +28,12 @@ namespace BookStoreWebMvc.Controllers
             return qLBansachEntities.NHAXUATBANs.ToList();
         }
         // GET: BookStore
-        public ActionResult Index()
+        public ActionResult Index(int ? page)
         {
-            var sachmoi = Laysachmoi(5);
+            int pageSize = 5;
+            int pageNum = (page ?? 1);
+
+            var sachmoi = qLBansachEntities.SACHes.OrderByDescending(a => a.Ngaycapnhat).ToPagedList(pageNum, pageSize);
             var chudeList = Laychude();
             var nhaxuatbanList = Laynhaxuatban();
 
@@ -43,9 +48,12 @@ namespace BookStoreWebMvc.Controllers
         }
 
         // Phương thức lọc sách theo danh mục chủ đề
-        public ActionResult FilterByCategory(int id)
+        public ActionResult FilterByCategory(int id, int? page)
         {
-            var sachTheoDanhMuc = qLBansachEntities.SACHes.Where(s => s.MaCD == id).ToList();
+            int pageSize = 5;
+            int pageNum = (page ?? 1);
+
+            var sachTheoDanhMuc = qLBansachEntities.SACHes.Where(s => s.MaCD == id).OrderBy(s => s.Masach).ToPagedList(pageNum, pageSize);
             var viewModel = new BookStoreVM
             {
                 saches = sachTheoDanhMuc,
@@ -57,9 +65,12 @@ namespace BookStoreWebMvc.Controllers
         }
 
         // Phương thức lọc sách theo nhà xuất bản
-        public ActionResult FilterByPublisher(int id)
+        public ActionResult FilterByPublisher(int id, int ? page)
         {
-            var sachTheoNhaXuatBan = qLBansachEntities.SACHes.Where(s => s.MaNXB == id).ToList();
+            int pageSize = 5;
+            int pageNum = (page ?? 1);
+
+            var sachTheoNhaXuatBan = qLBansachEntities.SACHes.Where(s => s.MaNXB == id).OrderBy(s => s.Masach).ToPagedList(pageNum, pageSize);
             var viewModel = new BookStoreVM
             {
                 saches = sachTheoNhaXuatBan,

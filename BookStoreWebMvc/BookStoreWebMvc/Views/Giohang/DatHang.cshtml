@@ -61,7 +61,7 @@
 }
 
 <table align="center">
-    @using (Html.BeginForm("DatHang", "Giohang"))
+    @using (Html.BeginForm("DatHang", "Giohang", FormMethod.Post))
     {
         @Html.ValidationSummary(true)
         <tr style="height:40px">

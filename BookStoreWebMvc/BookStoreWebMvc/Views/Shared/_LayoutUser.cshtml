@@ -52,12 +52,7 @@
                             <li class="nav-item active">
                                 <a class="nav-link pl-lg-0" href="@Url.Action("Index", "BookStore")">Home <span class="sr-only">(current)</span></a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="@Url.Action("About", "BookStore")">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="@Url.Action("Categories", "BookStore")">Categories</a>
-                            </li>
+                            
                             @if (Session["Taikhoan"] != null)
                             {
                                 var khachHang = (KHACHHANG)Session["Taikhoan"];
