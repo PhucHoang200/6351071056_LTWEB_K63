@@ -1,34 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\HOANG PHUC\\Downloads\\BookStore\\BookStoreWebMvc\\",
+  "WorkspaceRootPath": "C:\\Users\\phucp\\Downloads\\THWeb3buoi\\6351071056_LTWEB_K63\\BookStoreWebMvc\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{76F56081-52B0-4DF2-90AA-FC3674E7948F}|BookStoreWebMvc\\BookStoreWebMvc.csproj|c:\\users\\hoang phuc\\downloads\\bookstore\\bookstorewebmvc\\bookstorewebmvc\\views\\admin\\sach.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{76F56081-52B0-4DF2-90AA-FC3674E7948F}|BookStoreWebMvc\\BookStoreWebMvc.csproj|c:\\users\\phucp\\downloads\\thweb3buoi\\6351071056_ltweb_k63\\bookstorewebmvc\\bookstorewebmvc\\views\\admin\\sach.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{76F56081-52B0-4DF2-90AA-FC3674E7948F}|BookStoreWebMvc\\BookStoreWebMvc.csproj|solutionrelative:bookstorewebmvc\\views\\admin\\sach.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76F56081-52B0-4DF2-90AA-FC3674E7948F}|BookStoreWebMvc\\BookStoreWebMvc.csproj|c:\\users\\hoang phuc\\downloads\\bookstore\\bookstorewebmvc\\bookstorewebmvc\\views\\admin\\chitietsach.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{76F56081-52B0-4DF2-90AA-FC3674E7948F}|BookStoreWebMvc\\BookStoreWebMvc.csproj|solutionrelative:bookstorewebmvc\\views\\admin\\chitietsach.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{76F56081-52B0-4DF2-90AA-FC3674E7948F}|BookStoreWebMvc\\BookStoreWebMvc.csproj|c:\\users\\phucp\\downloads\\thweb3buoi\\6351071056_ltweb_k63\\bookstorewebmvc\\bookstorewebmvc\\views\\bookstore\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{76F56081-52B0-4DF2-90AA-FC3674E7948F}|BookStoreWebMvc\\BookStoreWebMvc.csproj|solutionrelative:bookstorewebmvc\\views\\bookstore\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76F56081-52B0-4DF2-90AA-FC3674E7948F}|BookStoreWebMvc\\BookStoreWebMvc.csproj|c:\\users\\hoang phuc\\downloads\\bookstore\\bookstorewebmvc\\bookstorewebmvc\\views\\bookstore\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{76F56081-52B0-4DF2-90AA-FC3674E7948F}|BookStoreWebMvc\\BookStoreWebMvc.csproj|solutionrelative:bookstorewebmvc\\views\\bookstore\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{76F56081-52B0-4DF2-90AA-FC3674E7948F}|BookStoreWebMvc\\BookStoreWebMvc.csproj|c:\\users\\phucp\\downloads\\thweb3buoi\\6351071056_ltweb_k63\\bookstorewebmvc\\bookstorewebmvc\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{76F56081-52B0-4DF2-90AA-FC3674E7948F}|BookStoreWebMvc\\BookStoreWebMvc.csproj|solutionrelative:bookstorewebmvc\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76F56081-52B0-4DF2-90AA-FC3674E7948F}|BookStoreWebMvc\\BookStoreWebMvc.csproj|c:\\users\\hoang phuc\\downloads\\bookstore\\bookstorewebmvc\\bookstorewebmvc\\views\\shared\\_layoutuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{76F56081-52B0-4DF2-90AA-FC3674E7948F}|BookStoreWebMvc\\BookStoreWebMvc.csproj|C:\\Users\\phucp\\Downloads\\THWeb3buoi\\6351071056_LTWEB_K63\\BookStoreWebMvc\\bookstorewebmvc\\views\\shared\\_layoutuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{76F56081-52B0-4DF2-90AA-FC3674E7948F}|BookStoreWebMvc\\BookStoreWebMvc.csproj|solutionrelative:bookstorewebmvc\\views\\shared\\_layoutuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76F56081-52B0-4DF2-90AA-FC3674E7948F}|BookStoreWebMvc\\BookStoreWebMvc.csproj|c:\\users\\hoang phuc\\downloads\\bookstore\\bookstorewebmvc\\bookstorewebmvc\\views\\admin\\thongkesach.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{76F56081-52B0-4DF2-90AA-FC3674E7948F}|BookStoreWebMvc\\BookStoreWebMvc.csproj|solutionrelative:bookstorewebmvc\\views\\admin\\thongkesach.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{76F56081-52B0-4DF2-90AA-FC3674E7948F}|BookStoreWebMvc\\BookStoreWebMvc.csproj|C:\\Users\\phucp\\Downloads\\THWeb3buoi\\6351071056_LTWEB_K63\\BookStoreWebMvc\\bookstorewebmvc\\views\\bookstore\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{76F56081-52B0-4DF2-90AA-FC3674E7948F}|BookStoreWebMvc\\BookStoreWebMvc.csproj|solutionrelative:bookstorewebmvc\\views\\bookstore\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76F56081-52B0-4DF2-90AA-FC3674E7948F}|BookStoreWebMvc\\BookStoreWebMvc.csproj|C:\\Users\\HOANG PHUC\\Downloads\\BookStore\\BookStoreWebMvc\\bookstorewebmvc\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{76F56081-52B0-4DF2-90AA-FC3674E7948F}|BookStoreWebMvc\\BookStoreWebMvc.csproj|C:\\Users\\phucp\\Downloads\\THWeb3buoi\\6351071056_LTWEB_K63\\BookStoreWebMvc\\bookstorewebmvc\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{76F56081-52B0-4DF2-90AA-FC3674E7948F}|BookStoreWebMvc\\BookStoreWebMvc.csproj|solutionrelative:bookstorewebmvc\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76F56081-52B0-4DF2-90AA-FC3674E7948F}|BookStoreWebMvc\\BookStoreWebMvc.csproj|C:\\Users\\phucp\\Downloads\\THWeb3buoi\\6351071056_LTWEB_K63\\BookStoreWebMvc\\bookstorewebmvc\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76F56081-52B0-4DF2-90AA-FC3674E7948F}|BookStoreWebMvc\\BookStoreWebMvc.csproj|solutionrelative:bookstorewebmvc\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76F56081-52B0-4DF2-90AA-FC3674E7948F}|BookStoreWebMvc\\BookStoreWebMvc.csproj|C:\\Users\\HOANG PHUC\\Downloads\\BookStore\\BookStoreWebMvc\\bookstorewebmvc\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{76F56081-52B0-4DF2-90AA-FC3674E7948F}|BookStoreWebMvc\\BookStoreWebMvc.csproj|solutionrelative:bookstorewebmvc\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{76F56081-52B0-4DF2-90AA-FC3674E7948F}|BookStoreWebMvc\\BookStoreWebMvc.csproj|C:\\Users\\phucp\\Downloads\\THWeb3buoi\\6351071056_LTWEB_K63\\BookStoreWebMvc\\bookstorewebmvc\\views\\admin\\thongkesach.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{76F56081-52B0-4DF2-90AA-FC3674E7948F}|BookStoreWebMvc\\BookStoreWebMvc.csproj|solutionrelative:bookstorewebmvc\\views\\admin\\thongkesach.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,77 +42,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\phucp\\Downloads\\THWeb3buoi\\6351071056_LTWEB_K63\\BookStoreWebMvc\\BookStoreWebMvc\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "BookStoreWebMvc\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\phucp\\Downloads\\THWeb3buoi\\6351071056_LTWEB_K63\\BookStoreWebMvc\\BookStoreWebMvc\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "BookStoreWebMvc\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-15T14:41:09.347Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Chitietsach.cshtml",
-              "DocumentMoniker": "C:\\Users\\HOANG PHUC\\Downloads\\BookStore\\BookStoreWebMvc\\BookStoreWebMvc\\Views\\Admin\\Chitietsach.cshtml",
-              "RelativeDocumentMoniker": "BookStoreWebMvc\\Views\\Admin\\Chitietsach.cshtml",
-              "ToolTip": "C:\\Users\\HOANG PHUC\\Downloads\\BookStore\\BookStoreWebMvc\\BookStoreWebMvc\\Views\\Admin\\Chitietsach.cshtml",
-              "RelativeToolTip": "BookStoreWebMvc\\Views\\Admin\\Chitietsach.cshtml",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\phucp\\Downloads\\THWeb3buoi\\6351071056_LTWEB_K63\\BookStoreWebMvc\\BookStoreWebMvc\\Views\\BookStore\\Index.cshtml",
+              "RelativeDocumentMoniker": "BookStoreWebMvc\\Views\\BookStore\\Index.cshtml",
+              "ToolTip": "C:\\Users\\phucp\\Downloads\\THWeb3buoi\\6351071056_LTWEB_K63\\BookStoreWebMvc\\BookStoreWebMvc\\Views\\BookStore\\Index.cshtml",
+              "RelativeToolTip": "BookStoreWebMvc\\Views\\BookStore\\Index.cshtml",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAAHYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-15T09:48:05.832Z",
+              "WhenOpened": "2024-11-15T14:08:00.916Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Sach.cshtml",
-              "DocumentMoniker": "C:\\Users\\HOANG PHUC\\Downloads\\BookStore\\BookStoreWebMvc\\BookStoreWebMvc\\Views\\Admin\\Sach.cshtml",
+              "DocumentMoniker": "C:\\Users\\phucp\\Downloads\\THWeb3buoi\\6351071056_LTWEB_K63\\BookStoreWebMvc\\BookStoreWebMvc\\Views\\Admin\\Sach.cshtml",
               "RelativeDocumentMoniker": "BookStoreWebMvc\\Views\\Admin\\Sach.cshtml",
-              "ToolTip": "C:\\Users\\HOANG PHUC\\Downloads\\BookStore\\BookStoreWebMvc\\BookStoreWebMvc\\Views\\Admin\\Sach.cshtml",
+              "ToolTip": "C:\\Users\\phucp\\Downloads\\THWeb3buoi\\6351071056_LTWEB_K63\\BookStoreWebMvc\\BookStoreWebMvc\\Views\\Admin\\Sach.cshtml",
               "RelativeToolTip": "BookStoreWebMvc\\Views\\Admin\\Sach.cshtml",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAkwBcAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAAAH0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-15T09:48:03.718Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\HOANG PHUC\\Downloads\\BookStore\\BookStoreWebMvc\\BookStoreWebMvc\\Views\\BookStore\\Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\phucp\\Downloads\\THWeb3buoi\\6351071056_LTWEB_K63\\BookStoreWebMvc\\BookStoreWebMvc\\Views\\BookStore\\Details.cshtml",
               "RelativeDocumentMoniker": "BookStoreWebMvc\\Views\\BookStore\\Details.cshtml",
-              "ToolTip": "C:\\Users\\HOANG PHUC\\Downloads\\BookStore\\BookStoreWebMvc\\BookStoreWebMvc\\Views\\BookStore\\Details.cshtml",
+              "ToolTip": "C:\\Users\\phucp\\Downloads\\THWeb3buoi\\6351071056_LTWEB_K63\\BookStoreWebMvc\\BookStoreWebMvc\\Views\\BookStore\\Details.cshtml",
               "RelativeToolTip": "BookStoreWebMvc\\Views\\BookStore\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -119,22 +100,22 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "_LayoutUser.cshtml",
-              "DocumentMoniker": "C:\\Users\\HOANG PHUC\\Downloads\\BookStore\\BookStoreWebMvc\\BookStoreWebMvc\\Views\\Shared\\_LayoutUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\phucp\\Downloads\\THWeb3buoi\\6351071056_LTWEB_K63\\BookStoreWebMvc\\BookStoreWebMvc\\Views\\Shared\\_LayoutUser.cshtml",
               "RelativeDocumentMoniker": "BookStoreWebMvc\\Views\\Shared\\_LayoutUser.cshtml",
-              "ToolTip": "C:\\Users\\HOANG PHUC\\Downloads\\BookStore\\BookStoreWebMvc\\BookStoreWebMvc\\Views\\Shared\\_LayoutUser.cshtml",
+              "ToolTip": "C:\\Users\\phucp\\Downloads\\THWeb3buoi\\6351071056_LTWEB_K63\\BookStoreWebMvc\\BookStoreWebMvc\\Views\\Shared\\_LayoutUser.cshtml",
               "RelativeToolTip": "BookStoreWebMvc\\Views\\Shared\\_LayoutUser.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAAgAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-15T09:18:28.004Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Thongkesach.cshtml",
-              "DocumentMoniker": "C:\\Users\\HOANG PHUC\\Downloads\\BookStore\\BookStoreWebMvc\\BookStoreWebMvc\\Views\\Admin\\Thongkesach.cshtml",
+              "DocumentMoniker": "C:\\Users\\phucp\\Downloads\\THWeb3buoi\\6351071056_LTWEB_K63\\BookStoreWebMvc\\BookStoreWebMvc\\Views\\Admin\\Thongkesach.cshtml",
               "RelativeDocumentMoniker": "BookStoreWebMvc\\Views\\Admin\\Thongkesach.cshtml",
-              "ToolTip": "C:\\Users\\HOANG PHUC\\Downloads\\BookStore\\BookStoreWebMvc\\BookStoreWebMvc\\Views\\Admin\\Thongkesach.cshtml",
+              "ToolTip": "C:\\Users\\phucp\\Downloads\\THWeb3buoi\\6351071056_LTWEB_K63\\BookStoreWebMvc\\BookStoreWebMvc\\Views\\Admin\\Thongkesach.cshtml",
               "RelativeToolTip": "BookStoreWebMvc\\Views\\Admin\\Thongkesach.cshtml",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -143,41 +124,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\HOANG PHUC\\Downloads\\BookStore\\BookStoreWebMvc\\BookStoreWebMvc\\Controllers\\AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\phucp\\Downloads\\THWeb3buoi\\6351071056_LTWEB_K63\\BookStoreWebMvc\\BookStoreWebMvc\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "BookStoreWebMvc\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\HOANG PHUC\\Downloads\\BookStore\\BookStoreWebMvc\\BookStoreWebMvc\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\phucp\\Downloads\\THWeb3buoi\\6351071056_LTWEB_K63\\BookStoreWebMvc\\BookStoreWebMvc\\Controllers\\AdminController.cs",
               "RelativeToolTip": "BookStoreWebMvc\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAEEBAAAAAAAAAAAAwFIBAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAB0BAAAAAAAAAIAwwCkBAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T08:24:52.422Z"
+              "WhenOpened": "2024-11-15T08:24:52.422Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "_LayoutAdmin.cshtml",
-              "DocumentMoniker": "C:\\Users\\HOANG PHUC\\Downloads\\BookStore\\BookStoreWebMvc\\BookStoreWebMvc\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "DocumentMoniker": "C:\\Users\\phucp\\Downloads\\THWeb3buoi\\6351071056_LTWEB_K63\\BookStoreWebMvc\\BookStoreWebMvc\\Views\\Shared\\_LayoutAdmin.cshtml",
               "RelativeDocumentMoniker": "BookStoreWebMvc\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "ToolTip": "C:\\Users\\HOANG PHUC\\Downloads\\BookStore\\BookStoreWebMvc\\BookStoreWebMvc\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ToolTip": "C:\\Users\\phucp\\Downloads\\THWeb3buoi\\6351071056_LTWEB_K63\\BookStoreWebMvc\\BookStoreWebMvc\\Views\\Shared\\_LayoutAdmin.cshtml",
               "RelativeToolTip": "BookStoreWebMvc\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAEYAAABOAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAADcAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-15T08:24:16.378Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "WhenOpened": "2024-11-15T08:24:16.378Z",
+              "EditorCaption": ""
             }
           ]
         }

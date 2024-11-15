@@ -1,184 +1,103 @@
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\BookStoreWebMvc.dll.config
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\BookStoreWebMvc.dll
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\BookStoreWebMvc.pdb
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\csc.exe
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\csc.exe.config
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\csc.rsp
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\csi.exe
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\csi.exe.config
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\csi.rsp
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\Microsoft.Managed.Core.targets
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\Microsoft.Win32.Primitives.dll
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.AppContext.dll
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Console.dll
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Diagnostics.StackTrace.dll
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Globalization.Calendars.dll
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.IO.Compression.dll
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.IO.Compression.ZipFile.dll
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.IO.FileSystem.dll
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.IO.FileSystem.Primitives.dll
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Net.Http.dll
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Net.Sockets.dll
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Security.Cryptography.Encoding.dll
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Security.Cryptography.Primitives.dll
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Text.Encoding.CodePages.dll
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Threading.Tasks.Extensions.dll
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.ValueTuple.dll
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Xml.ReaderWriter.dll
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Xml.XmlDocument.dll
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Xml.XPath.dll
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Xml.XPath.XDocument.dll
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\vbc.exe
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\vbc.exe.config
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\vbc.rsp
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\VBCSCompiler.exe
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\Antlr3.Runtime.dll
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\Newtonsoft.Json.dll
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\System.Web.Helpers.dll
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\System.Web.Mvc.dll
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\System.Web.Optimization.dll
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\System.Web.Razor.dll
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\System.Web.WebPages.Deployment.dll
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\System.Web.WebPages.dll
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\System.Web.WebPages.Razor.dll
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\WebGrease.dll
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\System.Web.Helpers.xml
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\System.Web.Mvc.xml
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\System.Web.Optimization.xml
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\System.Web.Razor.xml
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\System.Web.WebPages.xml
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\System.Web.WebPages.Deployment.xml
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\System.Web.WebPages.Razor.xml
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\Newtonsoft.Json.xml
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\Antlr3.Runtime.pdb
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\obj\Debug\BookStoreWebMvc.csproj.AssemblyReference.cache
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\obj\Debug\BookStoreWebMvc.csproj.CoreCompileInputs.cache
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\obj\Debug\BookStor.3D88BC48.Up2Date
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\obj\Debug\BookStoreWebMvc.dll
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\obj\Debug\BookStoreWebMvc.pdb
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\EntityFramework.dll
-C:\Users\HOANG PHUC\source\repos\BookStoreWebMvc\BookStoreWebMvc\bin\EntityFramework.xml
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\BookStoreWebMvc.dll.config
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\BookStoreWebMvc.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\BookStoreWebMvc.pdb
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\csc.exe
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\csc.exe.config
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\csc.rsp
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\csi.exe
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\csi.exe.config
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\csi.rsp
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\Microsoft.Managed.Core.targets
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\Microsoft.Win32.Primitives.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.AppContext.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Console.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Diagnostics.StackTrace.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Globalization.Calendars.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.IO.Compression.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.IO.Compression.ZipFile.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.IO.FileSystem.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.IO.FileSystem.Primitives.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Net.Http.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Net.Sockets.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Security.Cryptography.Encoding.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Security.Cryptography.Primitives.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Text.Encoding.CodePages.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Threading.Tasks.Extensions.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.ValueTuple.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Xml.ReaderWriter.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Xml.XmlDocument.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Xml.XPath.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Xml.XPath.XDocument.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\vbc.exe
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\vbc.exe.config
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\vbc.rsp
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\VBCSCompiler.exe
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\AngleSharp.Css.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\AngleSharp.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\Antlr3.Runtime.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\EntityFramework.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\HtmlSanitizer.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\Newtonsoft.Json.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\PagedList.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\PagedList.Mvc.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\System.Buffers.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\System.Collections.Immutable.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\System.Memory.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\System.Numerics.Vectors.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\System.Runtime.CompilerServices.Unsafe.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\System.Text.Encoding.CodePages.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\System.Web.Helpers.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\System.Web.Mvc.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\System.Web.Optimization.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\System.Web.Razor.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\System.Web.WebPages.Deployment.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\System.Web.WebPages.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\System.Web.WebPages.Razor.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\WebGrease.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\AngleSharp.xml
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\AngleSharp.Css.xml
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\EntityFramework.xml
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\HtmlSanitizer.xml
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\PagedList.xml
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\PagedList.Mvc.xml
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\System.Buffers.xml
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\System.Collections.Immutable.xml
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\System.Memory.xml
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\System.Numerics.Vectors.xml
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\System.Runtime.CompilerServices.Unsafe.xml
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\System.Text.Encoding.CodePages.xml
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\System.Web.Helpers.xml
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\System.Web.Mvc.xml
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\System.Web.Razor.xml
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\System.Web.WebPages.xml
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\System.Web.WebPages.Deployment.xml
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\System.Web.WebPages.Razor.xml
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\System.Web.Optimization.xml
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\Newtonsoft.Json.xml
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\bin\Antlr3.Runtime.pdb
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\obj\Debug\BookStoreWebMvc.csproj.AssemblyReference.cache
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\obj\Debug\BookStoreWebMvc.csproj.CoreCompileInputs.cache
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\obj\Debug\BookStor.3D88BC48.Up2Date
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\obj\Debug\BookStoreWebMvc.dll
-C:\Users\HOANG PHUC\Downloads\BookStore\BookStoreWebMvc\BookStoreWebMvc\obj\Debug\BookStoreWebMvc.pdb
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\BookStoreWebMvc.dll.config
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\BookStoreWebMvc.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\BookStoreWebMvc.pdb
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\csc.exe
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\csc.exe.config
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\csc.rsp
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\csi.exe
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\csi.exe.config
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\csi.rsp
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.AppContext.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Console.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.IO.Compression.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Net.Http.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Net.Sockets.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.ValueTuple.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Xml.XPath.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\vbc.exe
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\vbc.exe.config
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\vbc.rsp
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\VBCSCompiler.exe
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\AngleSharp.Css.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\AngleSharp.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\Antlr3.Runtime.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\EntityFramework.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\HtmlSanitizer.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\Newtonsoft.Json.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\PagedList.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\PagedList.Mvc.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\System.Buffers.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\System.Collections.Immutable.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\System.Memory.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\System.Numerics.Vectors.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\System.Text.Encoding.CodePages.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\System.Web.Helpers.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\System.Web.Mvc.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\System.Web.Optimization.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\System.Web.Razor.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\System.Web.WebPages.Deployment.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\System.Web.WebPages.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\System.Web.WebPages.Razor.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\WebGrease.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\AngleSharp.xml
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\AngleSharp.Css.xml
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\EntityFramework.xml
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\HtmlSanitizer.xml
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\PagedList.xml
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\PagedList.Mvc.xml
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\System.Buffers.xml
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\System.Collections.Immutable.xml
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\System.Memory.xml
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\System.Numerics.Vectors.xml
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\System.Text.Encoding.CodePages.xml
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\System.Web.Helpers.xml
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\System.Web.Mvc.xml
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\System.Web.Razor.xml
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\System.Web.WebPages.xml
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\System.Web.WebPages.Deployment.xml
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\System.Web.WebPages.Razor.xml
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\System.Web.Optimization.xml
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\Newtonsoft.Json.xml
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\bin\Antlr3.Runtime.pdb
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\obj\Debug\BookStoreWebMvc.csproj.AssemblyReference.cache
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\obj\Debug\BookStoreWebMvc.csproj.CoreCompileInputs.cache
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\obj\Debug\BookStor.3D88BC48.Up2Date
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\obj\Debug\BookStoreWebMvc.dll
+C:\Users\phucp\Downloads\THWeb3buoi\6351071056_LTWEB_K63\BookStoreWebMvc\BookStoreWebMvc\obj\Debug\BookStoreWebMvc.pdb

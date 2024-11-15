@@ -297,6 +297,16 @@ namespace BookStoreWebMvc.Controllers
 
             try
             {
+                // Đường dẫn thư mục chứa hình ảnh
+                string imageFolderPath = Server.MapPath("~/Hinhsanpham/");
+                string imagePath = Path.Combine(imageFolderPath, sACH.Anhbia); // `HinhAnh` là trường lưu tên file ảnh
+
+                // Xóa hình ảnh nếu tồn tại
+                if (System.IO.File.Exists(imagePath))
+                {
+                    System.IO.File.Delete(imagePath);
+                }
+
                 // Xóa các bản ghi liên quan trong bảng VIETSACH
                 var vietsach = qLBansachEntities.VIETSACHes.Where(v => v.Masach == id).ToList();
                 foreach (var item in vietsach)
@@ -310,9 +320,11 @@ namespace BookStoreWebMvc.Controllers
                 {
                     qLBansachEntities.CHITIETDONTHANGs.Remove(item);
                 }
+
+                // Xóa bản ghi sách
                 qLBansachEntities.SACHes.Remove(sACH);
                 qLBansachEntities.SaveChanges();
-                return RedirectToAction("Sach", "Admin");  // Chuyển hướng về trang Sach.cshtml
+                return RedirectToAction("Sach", "Admin"); // Chuyển hướng về trang Sach.cshtml
             }
             catch (DbUpdateException)
             {
@@ -320,6 +332,7 @@ namespace BookStoreWebMvc.Controllers
                 return View("Xoasach", sACH);
             }
         }
+
 
         public ActionResult Thongkesach()
         {

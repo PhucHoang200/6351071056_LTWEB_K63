@@ -7,8 +7,6 @@
     Layout = "~/Views/Shared/_LayoutUser.cshtml";
 }
 
-
-
 <div class="row">
 
     <!-- Sidebar cho lọc danh mục và tác giả -->
@@ -19,7 +17,7 @@
             <ul>
                 @foreach (var chude in Model.chudes)  // Giả sử Model.Categories là danh sách các danh mục
                 {
-                    <li>
+                    <li class="category-item">
                         <a href="@Url.Action("FilterByCategory", "BookStore", new { id = chude.MaCD })">
                             @chude.TenChuDe
                         </a>
@@ -34,7 +32,7 @@
             <ul>
                 @foreach (var nhaxuatban in Model.nhaxuatbans)  // Giả sử Model.Authors là danh sách các tác giả
                 {
-                    <li>
+                    <li class="publisher-item">
                         <a href="@Url.Action("FilterByPublisher", "BookStore", new { id = nhaxuatban.MaNXB })">
                             @nhaxuatban.TenNXB
                         </a>
@@ -50,13 +48,12 @@
             <div class="catagory_container">
                 <div class="container">
 
-
                     <ul class="book_list">
                         @foreach (var sach in Model.saches) // Giả sử Model.Books là danh sách các sách
                         {
                             <li>
                                 <a href="@Url.Action("Details", "BookStore", new { id = sach.Masach })">
-                                    <img alt="" src="~/Hinhsanpham/@sach.Anhbia" width="200" />
+                                    <img alt="" src="~/Hinhsanpham/@sach.Anhbia" width="100" />
                                     <span>@sach.Tensach</span>
                                 </a>
                             </li>
@@ -64,43 +61,61 @@
                     </ul>
                 </div>
             </div>
-            
+
             <!-- Phân trang -->
             <div class="paging">
-                @Html.PagedListPager((IPagedList)Model.saches, page => Url.Action("Index", new { page=page }))
+                @Html.PagedListPager(
+                    (IPagedList)Model.saches,
+                    page => Url.Action("Index", new { page = page }),
+                    new PagedListRenderOptions
+                    {
+                        DisplayLinkToFirstPage = PagedListDisplayMode.Always,
+                        DisplayLinkToLastPage = PagedListDisplayMode.Always,
+                        DisplayLinkToPreviousPage = PagedListDisplayMode.Always,
+                        DisplayLinkToNextPage = PagedListDisplayMode.Always,
+                        MaximumPageNumbersToDisplay = 5,
+                        LinkToFirstPageFormat = "«",
+                        LinkToPreviousPageFormat = "‹",
+                        LinkToNextPageFormat = "›",
+                        LinkToLastPageFormat = "»"
+                    })
             </div>
         </section>
     </div>
 </div>
 
 <style>
-    .paging {
-        display: flex;
-        justify-content: center;
-        margin-top: 20px;
+    .paging .PagedList-skipToFirst,
+    .paging .PagedList-skipToLast,
+    .paging .PagedList-skipToPrevious,
+    .paging .PagedList-skipToNext,
+    .paging .PagedList-page {
+        display: inline-block;
+        padding: 8px 12px;
+        background-color: #f8f9fa;
+        color: #007bff;
+        border-radius: 5px;
+        border: 1px solid #007bff;
+        text-decoration: none;
+        font-size: 12px;
+        cursor: pointer;
+        margin: 0 2px;
     }
 
-        .paging .PagedList-pager {
-            display: flex;
-            gap: 8px;
-        }
+    .paging .active {
+        background-color: #007bff;
+        color: white;
+        border: 1px solid #0056b3;
+    }
 
-        .paging .PagedList-page {
-            display: inline-block;
-            padding: 8px 12px;
-            background-color: #f8f9fa;
-            color: #007bff;
-            border-radius: 5px;
-            border: 1px solid #007bff; /* Thêm viền cho các số trang */
-            text-decoration: none;
-            font-size: 14px;
-            cursor: pointer;
-        }
-
-        .paging .active {
-            background-color: #007bff;
-            border: 1px solid #0056b3; /* Thêm viền cho trang đang được chọn */
-        }
+    .paging .PagedList-skipToFirst:hover,
+    .paging .PagedList-skipToLast:hover,
+    .paging .PagedList-skipToPrevious:hover,
+    .paging .PagedList-skipToNext:hover,
+    .paging .PagedList-page:hover {
+        background-color: #e2e6ea;
+        color: #0056b3;
+    }
 
     .filter_section {
         margin-bottom: 20px;
@@ -109,6 +124,7 @@
         .filter_section h3 {
             font-size: 18px;
             margin-bottom: 10px;
+            text-align:center;
         }
 
         .filter_section ul {
@@ -117,7 +133,7 @@
         }
 
             .filter_section ul li {
-                margin-bottom: 5px;
+                margin-bottom: 10px;
             }
 
                 .filter_section ul li a {
@@ -129,6 +145,29 @@
                         color: #007bff;
                     }
 
+    /* Các mục danh mục chủ đề */
+    .category-item {
+        padding: 8px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        text-align: center;
+        max-width: 200px; /* Giới hạn chiều dài tối đa của ô */
+        margin: 5px auto; /* Tạo khoảng cách đều giữa các ô */
+        word-wrap: break-word; /* Ngắt từ nếu cần */
+    }
+
+    /* Các mục danh mục nhà xuất bản */
+    .publisher-item {
+        padding: 8px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        text-align: center;
+        max-width: 200px; /* Giới hạn chiều dài tối đa của ô */
+        margin: 5px auto; /* Tạo khoảng cách đều giữa các ô */
+        word-wrap: break-word; /* Ngắt từ nếu cần */
+    }
+
+    /* Danh sách sách */
     .book_list {
         display: flex;
         flex-wrap: wrap;
@@ -147,5 +186,3 @@
                 height: auto;
             }
 </style>
-
-

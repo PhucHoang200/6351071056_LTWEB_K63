@@ -72,7 +72,7 @@
                 @Html.DisplayFor(modelItem => item.NHAXUATBAN.TenNXB)
             </td>
             <td>
-                @Html.ActionLink("Sửa", "Suasach", new { id=item.Masach }) |
+                @Html.ActionLink("Sửa", "Suasach", new { id = item.Masach }) |
                 @Html.ActionLink("Chi tiết", "Chitietsach", new { id = item.Masach }) |
                 @Html.ActionLink("Xóa", "Xoasach", new { id = item.Masach })
             </td>
@@ -83,5 +83,53 @@
 
 <!-- Phân trang -->
 <div class="paging">
-    @Html.PagedListPager(Model, page => Url.Action("Sach", new { page }))
+    @Html.PagedListPager(
+        Model,
+        page => Url.Action("Sach", new { page }),
+        new PagedListRenderOptions
+        {
+            DisplayLinkToFirstPage = PagedListDisplayMode.Always,
+            DisplayLinkToLastPage = PagedListDisplayMode.Always,
+            DisplayLinkToPreviousPage = PagedListDisplayMode.Always,
+            DisplayLinkToNextPage = PagedListDisplayMode.Always,
+            MaximumPageNumbersToDisplay = 5,
+            LinkToFirstPageFormat = "«",
+            LinkToPreviousPageFormat = "‹",
+            LinkToNextPageFormat = "›",
+            LinkToLastPageFormat = "»"
+        })
 </div>
+
+<style>
+    .paging .PagedList-skipToFirst,
+    .paging .PagedList-skipToLast,
+    .paging .PagedList-skipToPrevious,
+    .paging .PagedList-skipToNext,
+    .paging .PagedList-page {
+        display: inline-block;
+        padding: 12px 14px;
+        background-color: #f8f9fa;
+        color: #007bff;
+        border-radius: 5px;
+        border: 1px solid #007bff;
+        text-decoration: none;
+        font-size: 10px;
+        cursor: pointer;
+        margin: 0 2px;
+    }
+
+    .paging .active {
+        background-color: #007bff;
+        color: white;
+        border: 1px solid #0056b3;
+    }
+
+    .paging .PagedList-skipToFirst:hover,
+    .paging .PagedList-skipToLast:hover,
+    .paging .PagedList-skipToPrevious:hover,
+    .paging .PagedList-skipToNext:hover,
+    .paging .PagedList-page:hover {
+        background-color: #e2e6ea;
+        color: #0056b3;
+    }
+</style>

@@ -30,28 +30,102 @@ namespace BookStoreWebMvc.Controllers
             var email = collection["email"];
             var diachi = collection["Diachi"];
             var dienthoai = collection["Dienthoai"];
-            var ngaysinh = String.Format("{0: MM/dd/yyyy}", collection["Ngaysinh"]);
+            var ngaysinh = collection["Ngaysinh"];
 
-            if (String.IsNullOrEmpty(hoten)) { ViewData["Loi 1"] = "Họ tên khách hàng không được để trống."; }
-            else if (String.IsNullOrEmpty(tendn)) { ViewData["Loi 2"] = "Phải nhập tên đăng nhập."; }
-            else if(String.IsNullOrEmpty(matkhau)) { ViewData["Loi 3"] = "Phải nhập mật khẩu."; }
-            else if(String.IsNullOrEmpty(nhaplaimatkhau)) { ViewData["Loi 4"] = "Phải nhập lại mật khẩu"; }
-            if (String.IsNullOrEmpty(email)) { ViewData["Loi 5"] = "Email không được bỏ trống."; }
-            if(String.IsNullOrEmpty(dienthoai)) { ViewData["Loi 7"] = "Phải nhập điện thoại."; }
-            else
+            // Khởi tạo thông báo lỗi
+            bool hasError = false;
+
+            // Kiểm tra thông tin bắt buộc
+            if (String.IsNullOrEmpty(hoten))
             {
-                kh.HoTen = hoten;
-                kh.Taikhoan = tendn;
-                kh.Matkhau = matkhau;
-                kh.DiachiKH = diachi;
-                kh.DienthoaiKH = dienthoai;
-                kh.Ngaysinh = DateTime.Parse(ngaysinh);
-                qLBansachEntities.KHACHHANGs.Add(kh);
-                qLBansachEntities.SaveChanges();
-                return RedirectToAction("Dangnhap");
-
+                ViewData["Loi1"] = "Họ tên khách hàng không được để trống.";
+                hasError = true;
             }
-            return this.Dangky();
+            if (String.IsNullOrEmpty(tendn))
+            {
+                ViewData["Loi2"] = "Phải nhập tên đăng nhập.";
+                hasError = true;
+            }
+            else if (qLBansachEntities.KHACHHANGs.Any(k => k.Taikhoan == tendn))
+            {
+                ViewData["Loi2"] = "Tên đăng nhập đã tồn tại.";
+                hasError = true;
+            }
+
+            if (String.IsNullOrEmpty(matkhau))
+            {
+                ViewData["Loi3"] = "Phải nhập mật khẩu.";
+                hasError = true;
+            }
+            else if (matkhau != nhaplaimatkhau)
+            {
+                ViewData["Loi4"] = "Mật khẩu và nhập lại mật khẩu không khớp.";
+                hasError = true;
+            }
+
+            if (String.IsNullOrEmpty(email))
+            {
+                ViewData["Loi5"] = "Email không được bỏ trống.";
+                hasError = true;
+            }
+            else if (!System.Text.RegularExpressions.Regex.IsMatch(email, @"^[^@\s]+@[^@\s]+\.[^@\s]+$"))
+            {
+                ViewData["Loi5"] = "Email không đúng định dạng.";
+                hasError = true;
+            }
+            else if (qLBansachEntities.KHACHHANGs.Any(k => k.Email == email))
+            {
+                ViewData["Loi5"] = "Email đã được sử dụng.";
+                hasError = true;
+            }
+
+            if (String.IsNullOrEmpty(dienthoai))
+            {
+                ViewData["Loi6"] = "Phải nhập số điện thoại.";
+                hasError = true;
+            }
+            else if (!System.Text.RegularExpressions.Regex.IsMatch(dienthoai, @"^\d{10,11}$"))
+            {
+                ViewData["Loi6"] = "Số điện thoại không đúng định dạng (phải từ 10-11 chữ số).";
+                hasError = true;
+            }
+            else if (qLBansachEntities.KHACHHANGs.Any(k => k.DienthoaiKH == dienthoai))
+            {
+                ViewData["Loi6"] = "Số điện thoại đã được sử dụng.";
+                hasError = true;
+            }
+
+            // Nếu có lỗi, trả về view đăng ký
+            if (hasError)
+            {
+                return View();
+            }
+
+            // Thêm khách hàng mới
+            kh.HoTen = hoten;
+            kh.Taikhoan = tendn;
+            kh.Matkhau = matkhau;
+            kh.Email = email;
+            kh.DiachiKH = diachi;
+            kh.DienthoaiKH = dienthoai;
+
+            if (!String.IsNullOrEmpty(ngaysinh))
+            {
+                if (DateTime.TryParse(ngaysinh, out DateTime parsedDate))
+                {
+                    kh.Ngaysinh = parsedDate;
+                }
+                else
+                {
+                    ViewData["Loi7"] = "Ngày sinh không hợp lệ.";
+                    return View();
+                }
+            }
+
+            qLBansachEntities.KHACHHANGs.Add(kh);
+            qLBansachEntities.SaveChanges();
+
+            return RedirectToAction("Dangnhap");
         }
 
         [HttpGet]
@@ -86,7 +160,7 @@ namespace BookStoreWebMvc.Controllers
                     Session["Taikhoan"] = kh;
                     return RedirectToAction("Index", "BookStore");
                 }
-                else ViewBag.Thongbao = "Tên đăng nhập thông tồn tại.";
+                else ViewBag.Thongbao = "Tên đăng nhập thông tồn tại hoặc mật khẩu không chính xác.";
             }
 
             return View();
